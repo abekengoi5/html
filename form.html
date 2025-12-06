@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Form Elements</title>
+</head>
+<body>
+   <form action="/submit" method="post">
+       <label for="name">Name:</label>
+       <input type="text" id="name" name="name" required>
+    <h4><input type="email" id="email" name="email" placeholder="Enter your email" required></h4>
+ <h4><input type="password" id="password" name="password" placeholder="Enter your password" required></h4>
+      <bottom type="submit">Submit</bottom>
+      <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments here"></textarea>
+    <h4><label for="country">Country:</h4>
+    <select id="country" name="country">
+        <option value="kaz">Kazakhstan</option>
+        <option value="por">Portugal</option>
+        <option value="rus">Russia</option>
+        <option value="aus">Australia</option>
+   </form>
+</body>
+</html>
